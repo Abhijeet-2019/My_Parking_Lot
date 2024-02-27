@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 public class ParkingServiceAppMain {
     public static void main(String[] args) {
-        System.out.println("Starting Parking Service");
+        System.out.println("----Starting Parking Service--------");
         SpringApplication.run(ParkingServiceAppMain.class);
-        System.out.println("Starting Parking Started");
+        System.out.println("--Parking Service Started ----------");
     }
 }
